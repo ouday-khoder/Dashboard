@@ -1,0 +1,345 @@
+:root {
+    --gold-color: #daa520f7;
+    --gold-alt-color: #daa52040;
+    --gray-color: #888;
+    --aqua-color: #00ffff;
+    --aqua-alt-color: #00ffff38;
+    --green-color: #22c55e;
+    --green-alt-color: #0080002b;
+    --blue-color: #0075ff;
+    --blue-alt-color: #0077ff47;
+    --red-color: #ff0000f0;
+    --red-alt-color: #ff000046;
+    --black-alt-color: #00000043;
+    --linked-alt-color: #0077b561;
+    --linked-color: #0076b5;
+}
+
+/* start box  */
+
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+
+.d-grid {
+    display: grid;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.d-block {
+    display: block;
+}
+
+/* end box  */
+
+/* start flex  */
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* end flex  */
+
+/* start Padding + Margin  */
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.pt-4 {
+    padding-top: 4px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+/* end Padding + Margin  */
+
+/* start color  */
+
+.c-black {
+    color: black;
+}
+
+.bg-black-alt {
+    background-color: var(--black-alt-color);
+}
+
+.c-white {
+    color: white;
+}
+
+.c-aqua {
+    color: var(--aqua-color);
+}
+
+.bg-aqua-alt {
+    background-color: var(--aqua-alt-color);
+}
+
+.bg-aqua {
+    background-color: var(--aqua-color);
+}
+
+.c-gray {
+    color: var(--gray-color);
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+
+.bg-eee {
+    background-color: #eee;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-blue-alt {
+    background-color: var(--blue-alt-color);
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-gold-alt {
+    background-color: var(--gold-alt-color);
+}
+
+.c-gold {
+    color: var(--gold-color);
+}
+
+.bg-gold {
+    background-color: var(--gold-color);
+}
+
+.c-green {
+    color: var(--green-color);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
+.bg-green-alt {
+    background-color: var(--green-alt-color);
+}
+
+.c-red {
+    color: var(--red-color);
+}
+
+.bg-red {
+    background-color: var(--red-color);
+}
+
+.bg-red-alt {
+    background-color: var(--red--alt-color);
+}
+
+.bg-linked {
+    background-color: var(--linked-color);
+}
+
+.c-linked {
+    color: var(--linked-color);
+}
+
+.bg-linked-alt {
+    background-color: var(--linked-alt-color);
+}
+
+/* end color  */
+
+/* start position  */
+
+.p-relative {
+    position: relative;
+}
+
+/* end position  */
+
+/* start font  */
+
+.txt-center {
+    text-align: center;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+/* 
+@media(max-width: 767px) {
+    .txt-center-mobile {
+        text-align: center;
+    }
+} */
+
+
+/* end font  */
+
+/* start list style */
+
+.list-none {
+    list-style: none;
+}
+
+/* end list style  */
+
+/* start border  */
+.rad-6 {
+    border-radius: 6px;
+}
+
+.rad-10 {
+    border-radius: 10px;
+}
+
+/* end border  */
+
+/* start width  */
+
+.w-full {
+    width: 100%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+/* end width  */
+/* start button  */
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+/* end button  */
